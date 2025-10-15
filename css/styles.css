@@ -69,6 +69,15 @@ footer {
     margin-left: 3vw;
 }
 
+#litchi {
+  width: 60px;
+  transition: transform 0.3s ease;
+}
+
+#litchi:hover {
+  transform: scale(1.2);
+}
+
 .pages a {
     margin-left: 3vw;
     margin-right: 3vw;
@@ -221,7 +230,7 @@ footer {
     width: 85vw;
     box-sizing: border-box;
     align-items: stretch;
-    background-color: #D9D9D9;
+    background-color: #CBE5DC;
 }
 
   /* history section */
@@ -263,7 +272,7 @@ footer {
 
   .caption {
     font-family: 'Cormorant Infant', 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: left;
   }
 
@@ -355,6 +364,18 @@ footer {
     z-index: -5;
   }
 
+  .green-dot3 {
+    height: 100px;
+    width: 100px;
+    background-color: #214F12;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: -10vw;
+    top: 1030px;
+    z-index: -5;
+  }
+
   .red-dot1 {
     height: 100px;
     width: 100px;
@@ -379,6 +400,30 @@ footer {
     z-index: -5;
   }
 
+  .red-dot3 {
+    height: 100px;
+    width: 100px;
+    background-color: #A11B02;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: -75vw;
+    top: 467px;
+    z-index: -5;
+  }
+
+  .red-dot4 {
+    height: 100px;
+    width: 100px;
+    background-color: #A11B02;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 15vw;
+    top: 1000px;
+    z-index: -5;
+  }
+
   .yellow-dot1 {
     height: 100px;
     width: 100px;
@@ -400,5 +445,17 @@ footer {
     position: absolute;
     left: -65vw;
     top: 450px;
+    z-index: -5;
+  }
+
+  .yellow-dot3 {
+    height: 100px;
+    width: 100px;
+    background-color: #FDC202;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: -65vw;
+    top: 1050px;
     z-index: -5;
   }
