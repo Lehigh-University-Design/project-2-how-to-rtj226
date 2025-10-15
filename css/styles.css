@@ -71,6 +71,8 @@ footer {
 
 #litchi {
   width: 60px;
+  position: relative;
+  top: 10px;
   transition: transform 0.3s ease;
 }
 
@@ -458,4 +460,13 @@ footer {
     left: -65vw;
     top: 1050px;
     z-index: -5;
+  }
+
+  #credit {
+    text-decoration: none;
+    color: black;
+  }
+
+  #credit:hover {
+    color: rgb(181, 181, 181);
   }
