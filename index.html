@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
 
     <!-- CSS Refs -->
     <link type="text/css" href="css/styles.css" rel="stylesheet"/>
@@ -15,10 +18,75 @@
 
 <body>
     <!-- Content -->
-    <h1>How To Page</h1>
-    <p>This is a simple how-to page.</p>
-    
+     <nav class="navbar">
+        <div class="navItem"><a id="logo" href="#history"><img style="width: 60px;" src="images/Litchi.png" alt="logo"></a></div>
+        <div class="navItem pages">
+            <a class="active" href="#history">History</a>
+            <a href="recipe.html">Recipe</a>
+        </div>
+     </nav>
+     <section class="opening">
+        <h1>Chè Thái</h1>
+        <p style="font-size: 8vw;">[noun]</p>
+        <p style="font-size: 5vw;">Vietnamese Fruit Cocktail</p>
+     </section>
+     <div class="animation">
+        <div class="left"><img src="images/Durian.png" alt="durian left half"></div>
+        <div class="right"><img src="images/Durian.png" alt="durian left half"></div>
+     </div>
+     <!-- Grid container -->
+     <section class="flex-container">
+        <div class="grid-container">
+            <div class="item1">
+                <div class="text_content">
+                    <div class="sectionHeader"> <!--Header-->
+                        History
+                    </div>
+                    <div class="caption"> <!--Caption-->
+                        <span style="font-weight: 700;">Chè</span> is a traditional dessert originating from Viet Nam. The sister of the more famous Chè ba màu, Che Thai is a simple but flavorful explosion of tropical flavors native to Viet Nam.
+                        An adaptation of Thailand’s Tub Tim Grob, but incorporating a wider variety of local fruits, jellies, and condensed milk to create a colorful, sweet, fruit-cocktail-style dessert served over crushed ice.
+                        The name <em>Thái</em> means Thai, referring to the inspiration for the dish, while the Vietnamese "chè" signifies a sweet soup or dessert. The process is fairly simple, requiring no cooking or preparation.
+                    </div>
+                </div>
+            </div>
+            <div class="item2"><img style="width: 100%; height: 100%;" src="images/che.png" alt="che thai"></div>
+        </div>
+        <div class="grid-container">
+            <div class="item3"><img style="width: 100%; height: 100%;" src="images/supermarket.png" alt="supermarket aisle"></div>
+            <div class="item4">
+                <div class="text_content">
+                    <div class="sectionHeader"> <!--Header-->
+                        Purchasing Ingredients
+                    </div>
+                    <div class="caption"> <!--Caption-->
+                        The key to the best Chè is fresh ingredients. If you have access, get the fruits and water chestnuts fresh. If not readily available to you, another 
+                        convenient option is to purchase the ingredients canned. Any Asian supermarket should carry the necessary ingredients. You can check out any of the following
+                        supermarkets: H-Mart, 99 Ranch Market, TNT, Weee! (Online)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container" ">
+            <div class="item5">
+                <div class="text_content">
+                    <div class="sectionHeader"> <!--Header-->
+                        Water Chestnuts
+                    </div>
+                    <div class="caption"> <!--Caption-->
+                        Water chestnuts are not readily available or sold loosely in typical American supermarkets. If you are able to find some at your local supermarket, 
+                        fresh ones will taste better. Most Asian supermarkets should have canned chestnuts available. Most variations use red coloring for the recipe but you 
+                        are welcome to use whatever color of your choosing. 
+                    </div>
+                </div>
+            </div>
+            <div class="item6"><img style="width: 100%; height: auto;" src="images/chestnut.png" alt="water chestnuts with tapioca"></div>
+        </div>
+    </section>
 
+    <footer style="font-size: 20px;">
+        <div>&copy Ryan Javier 2025</div>
+        <div><img style="width: 8vw" src="images/busss.png"></div>
+    </footer>
     <!-- Script -->
     <script src="js/script.js"></script>
 </body>
