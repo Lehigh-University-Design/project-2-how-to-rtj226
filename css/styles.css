@@ -289,10 +289,47 @@ footer {
     text-align: left;
     font-family: 'Cormorant Infant', 'Times New Roman', Times, serif;
   }
+  
 
     .ingredients {
         background-color: #CBE5DC;
     }
+
+    /* Ingredients section layout */
+.item2.ingredients {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 40px; /* spacing between columns */
+  padding: 40px;
+  background-color: #CBE5DC;
+  box-sizing: border-box;
+  align-items: start;
+}
+
+/* Make each column align properly */
+.item2.ingredients > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Typography adjustments */
+.item2.ingredients ul {
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: left;
+  font-family: 'Cormorant Infant', 'Times New Roman', Times, serif;
+  font-size: 25px; /* smaller than captions */
+  margin: 0;
+  padding: 0;
+}
+
+.item2.ingredients .list-heading {
+  list-style-type: none;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
 
   .list-heading {
     list-style-type: none;
